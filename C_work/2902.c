@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-#pragma warning(disable:4996)
 
 int main(){
     char str[100];
     int i,l;
     
-    gets(str);
+    fgets(str,100,stdin);
     
     l=strlen(str);
     
