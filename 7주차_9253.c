@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
- int main() {
+ int main(){
  	char str1[200001], str2[2000001], str3[200001];
  	gets(str1);
  	gets(str2);
