@@ -1,8 +1,10 @@
-//
-//  7주차_9253.c
-//  C_work2
-//
-//  Created by 양다연 on 2022/11/22.
-//
-
 #include <stdio.h>
+#include <string.h>
+
+ int main() {
+ 	char str1[200001], str2[2000001], str3[200001];
+ 	gets(str1);
+ 	gets(str2);
+ 	gets(str3);
+ 	puts(strstr(str1, str3) && strstr(str2, str3) ? "YES" : "NO");
+ }
